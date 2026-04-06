@@ -20,7 +20,7 @@ const MiniPortrait: React.FC<{ pick: PickedHero }> = ({ pick }) => {
       ].join(' ')}>
         {!imgErr ? (
           <img
-            src={`/${pick.hero.image}`}
+            src={`${import.meta.env.BASE_URL}${pick.hero.image}`}
             alt={pick.hero.name}
             className="w-full h-full object-cover object-top"
             onError={() => setImgErr(true)}

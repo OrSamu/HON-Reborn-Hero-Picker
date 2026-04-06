@@ -22,7 +22,7 @@ export const HeroCardMini: React.FC<HeroCardMiniProps> = ({ hero, team }) => {
       <div className="w-8 h-8 rounded overflow-hidden flex-shrink-0">
         {!imgError ? (
           <img
-            src={`/${hero.image}`}
+            src={`${import.meta.env.BASE_URL}${hero.image}`}
             alt={hero.name}
             className="w-full h-full object-cover object-top"
             onError={() => setImgError(true)}

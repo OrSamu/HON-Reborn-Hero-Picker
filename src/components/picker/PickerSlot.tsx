@@ -50,7 +50,7 @@ export const PickerSlot: React.FC<PickerSlotProps> = ({
       <div className="absolute inset-0">
         {!imgError ? (
           <img
-            src={`/${pick.hero.image}`}
+            src={`${import.meta.env.BASE_URL}${pick.hero.image}`}
             alt={pick.hero.name}
             className="w-full h-full object-cover object-top"
             onError={() => setImgError(true)}

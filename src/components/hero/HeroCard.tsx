@@ -63,7 +63,7 @@ export const HeroCard: React.FC<HeroCardProps> = ({
       ].join(' ')}>
         {!imgError && (
           <img
-            src={`/${hero.image}`}
+            src={`${import.meta.env.BASE_URL}${hero.image}`}
             alt={hero.name}
             className="w-full h-full object-cover object-top"
             onError={() => setImgError(true)}

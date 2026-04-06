@@ -1,0 +1,2380 @@
+{
+  "version": "1.0.0",
+  "heroes": [
+    {
+      "id": "accursed",
+      "name": "Accursed",
+      "image": "heroes/accursed.webp",
+      "role": [
+        "support",
+        "initiator"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "plague-rider",
+        "demented-shaman",
+        "defiler"
+      ],
+      "counters": [
+        "arachna",
+        "flint-beastwood",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "aluna",
+      "name": "Aluna",
+      "image": "heroes/aluna.webp",
+      "role": [
+        "support",
+        "ganker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "nymphora",
+        "empath",
+        "martyr"
+      ],
+      "counters": [
+        "blood-hunter",
+        "night-hound",
+        "fayde"
+      ]
+    },
+    {
+      "id": "andromeda",
+      "name": "Andromeda",
+      "image": "heroes/andromeda.webp",
+      "role": [
+        "support",
+        "initiator",
+        "disabler"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "pebbles",
+        "hammerstorm"
+      ],
+      "counters": [
+        "magebane",
+        "chronos",
+        "sand-wraith"
+      ]
+    },
+    {
+      "id": "arachna",
+      "name": "Arachna",
+      "image": "heroes/arachna.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "puppet-master",
+        "demented-shaman"
+      ],
+      "counters": [
+        "night-hound",
+        "blood-hunter",
+        "dampeer"
+      ]
+    },
+    {
+      "id": "armadon",
+      "name": "Armadon",
+      "image": "heroes/armadon.webp",
+      "role": [
+        "carry",
+        "initiator"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "behemoth",
+        "andromeda",
+        "jeraziah"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "behemoth",
+      "name": "Behemoth",
+      "image": "heroes/behemoth.webp",
+      "role": [
+        "initiator",
+        "disabler"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 9,
+      "synergies": [
+        "andromeda",
+        "pyromancer",
+        "thunderbringer"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "chronos"
+      ]
+    },
+    {
+      "id": "blacksmith",
+      "name": "Blacksmith",
+      "image": "heroes/blacksmith.webp",
+      "role": [
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 5,
+      "midWarsRating": 5,
+      "synergies": [
+        "legionnaire",
+        "hammerstorm",
+        "armadon"
+      ],
+      "counters": [
+        "doctor-repulsor",
+        "defiler",
+        "voodoo-jester"
+      ]
+    },
+    {
+      "id": "blood-hunter",
+      "name": "Blood Hunter",
+      "image": "heroes/blood-hunter.webp",
+      "role": [
+        "ganker",
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "dampeer",
+        "night-hound",
+        "fayde"
+      ],
+      "counters": [
+        "andromeda",
+        "aluna",
+        "witch-slayer"
+      ]
+    },
+    {
+      "id": "bombardier",
+      "name": "Bombardier",
+      "image": "heroes/bombardier.webp",
+      "role": [
+        "ganker",
+        "support",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "tempest",
+        "andromeda"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "bubbles",
+      "name": "Bubbles",
+      "image": "heroes/bubbles.webp",
+      "role": [
+        "support",
+        "ganker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 5,
+      "midWarsRating": 6,
+      "synergies": [
+        "aluna",
+        "nymphora",
+        "empath"
+      ],
+      "counters": [
+        "slither",
+        "plague-rider",
+        "defiler"
+      ]
+    },
+    {
+      "id": "chronos",
+      "name": "Chronos",
+      "image": "heroes/chronos.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 1,
+      "powerRating": 9,
+      "midWarsRating": 9,
+      "synergies": [
+        "puppet-master",
+        "plague-rider"
+      ],
+      "counters": [
+        "behemoth",
+        "andromeda",
+        "tempest"
+      ]
+    },
+    {
+      "id": "corrupted-disciple",
+      "name": "Corrupted Disciple",
+      "image": "heroes/corrupted-disciple.webp",
+      "role": [
+        "carry",
+        "pusher"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "blood-hunter",
+        "fayde",
+        "night-hound"
+      ],
+      "counters": [
+        "witch-slayer",
+        "aluna",
+        "bubbles"
+      ]
+    },
+    {
+      "id": "dampeer",
+      "name": "Dampeer",
+      "image": "heroes/dampeer.webp",
+      "role": [
+        "ganker",
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "blood-hunter",
+        "night-hound",
+        "soulstealer"
+      ],
+      "counters": [
+        "andromeda",
+        "aluna",
+        "martyr"
+      ]
+    },
+    {
+      "id": "deadwood",
+      "name": "Deadwood",
+      "image": "heroes/deadwood.webp",
+      "role": [
+        "carry",
+        "initiator"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "accursed",
+        "hellbringer",
+        "plague-rider"
+      ],
+      "counters": [
+        "keeper-of-the-forest",
+        "ophelia"
+      ]
+    },
+    {
+      "id": "defiler",
+      "name": "Defiler",
+      "image": "heroes/defiler.webp",
+      "role": [
+        "support",
+        "ganker",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "plague-rider",
+        "demented-shaman",
+        "accursed"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "chronos"
+      ]
+    },
+    {
+      "id": "demented-shaman",
+      "name": "Demented Shaman",
+      "image": "heroes/demented-shaman.webp",
+      "role": [
+        "support",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "accursed",
+        "deadwood",
+        "blood-hunter"
+      ],
+      "counters": [
+        "arachna",
+        "flint-beastwood",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "devourer",
+      "name": "Devourer",
+      "image": "heroes/devourer.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "dampeer",
+        "blood-hunter",
+        "deadwood"
+      ],
+      "counters": [
+        "nomad",
+        "swiftblade",
+        "magebane"
+      ]
+    },
+    {
+      "id": "doctor-repulsor",
+      "name": "Doctor Repulsor",
+      "image": "heroes/doctor-repulsor.webp",
+      "role": [
+        "support",
+        "ganker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "plague-rider",
+        "puppet-master"
+      ],
+      "counters": [
+        "silhouette",
+        "night-hound",
+        "blood-hunter"
+      ]
+    },
+    {
+      "id": "empath",
+      "name": "Empath",
+      "image": "heroes/empath.webp",
+      "role": [
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 5,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "behemoth",
+        "legionnaire"
+      ],
+      "counters": [
+        "magebane",
+        "chronos",
+        "sand-wraith"
+      ]
+    },
+    {
+      "id": "engineer",
+      "name": "Engineer",
+      "image": "heroes/engineer.webp",
+      "role": [
+        "pusher",
+        "support"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 5,
+      "midWarsRating": 5,
+      "synergies": [
+        "the-chipper",
+        "blacksmith",
+        "vindicator"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "fayde",
+      "name": "Fayde",
+      "image": "heroes/fayde.webp",
+      "role": [
+        "ganker",
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "blood-hunter",
+        "dampeer",
+        "night-hound"
+      ],
+      "counters": [
+        "scout",
+        "andromeda",
+        "aluna"
+      ]
+    },
+    {
+      "id": "flint-beastwood",
+      "name": "Flint Beastwood",
+      "image": "heroes/flint-beastwood.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 9,
+      "synergies": [
+        "puppet-master",
+        "demented-shaman"
+      ],
+      "counters": [
+        "night-hound",
+        "blood-hunter",
+        "fayde"
+      ]
+    },
+    {
+      "id": "flux",
+      "name": "Flux",
+      "image": "heroes/flux.webp",
+      "role": [
+        "initiator",
+        "ganker",
+        "disabler"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 8,
+      "synergies": [
+        "andromeda",
+        "behemoth",
+        "pyromancer"
+      ],
+      "counters": [
+        "magebane",
+        "chronos",
+        "sand-wraith"
+      ]
+    },
+    {
+      "id": "forsaken-archer",
+      "name": "Forsaken Archer",
+      "image": "heroes/forsaken-archer.webp",
+      "role": [
+        "carry",
+        "pusher"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "demented-shaman",
+        "accursed",
+        "plague-rider"
+      ],
+      "counters": [
+        "night-hound",
+        "blood-hunter",
+        "fayde"
+      ]
+    },
+    {
+      "id": "glacius",
+      "name": "Glacius",
+      "image": "heroes/glacius.webp",
+      "role": [
+        "support",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 5,
+      "midWarsRating": 6,
+      "synergies": [
+        "chronos",
+        "arachna",
+        "flint-beastwood"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "corrupted-disciple"
+      ]
+    },
+    {
+      "id": "the-gladiator",
+      "name": "The Gladiator",
+      "image": "heroes/the-gladiator.webp",
+      "role": [
+        "carry",
+        "initiator"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "andromeda",
+        "flux",
+        "behemoth"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "hammerstorm",
+      "name": "Hammerstorm",
+      "image": "heroes/hammerstorm.webp",
+      "role": [
+        "carry",
+        "initiator"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "andromeda",
+        "flux"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "hellbringer",
+      "name": "Hellbringer",
+      "image": "heroes/hellbringer.webp",
+      "role": [
+        "support",
+        "pusher"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "chronos",
+        "arachna",
+        "blood-hunter"
+      ],
+      "counters": [
+        "witch-slayer",
+        "pyromancer",
+        "tempest"
+      ]
+    },
+    {
+      "id": "jeraziah",
+      "name": "Jeraziah",
+      "image": "heroes/jeraziah.webp",
+      "role": [
+        "support",
+        "initiator"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 5,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "devourer",
+        "blood-hunter",
+        "dampeer"
+      ]
+    },
+    {
+      "id": "keeper-of-the-forest",
+      "name": "Keeper of the Forest",
+      "image": "heroes/keeper-of-the-forest.webp",
+      "role": [
+        "support",
+        "ganker"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "war-beast",
+        "ophelia"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "legionnaire",
+      "name": "Legionnaire",
+      "image": "heroes/legionnaire.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "magebane",
+      "name": "Magebane",
+      "image": "heroes/magebane.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "flux",
+        "andromeda",
+        "scout"
+      ],
+      "counters": [
+        "tempest",
+        "thunderbringer",
+        "pyromancer"
+      ]
+    },
+    {
+      "id": "martyr",
+      "name": "Martyr",
+      "image": "heroes/martyr.webp",
+      "role": [
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 4,
+      "midWarsRating": 5,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "legionnaire"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "the-madman",
+      "name": "The Madman",
+      "image": "heroes/the-madman.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 9,
+      "synergies": [
+        "accursed",
+        "demented-shaman",
+        "blood-hunter"
+      ],
+      "counters": [
+        "andromeda",
+        "tempest",
+        "behemoth"
+      ]
+    },
+    {
+      "id": "moon-queen",
+      "name": "Moon Queen",
+      "image": "heroes/moon-queen.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 9,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "dampeer"
+      ]
+    },
+    {
+      "id": "myrmidon",
+      "name": "Myrmidon",
+      "image": "heroes/myrmidon.webp",
+      "role": [
+        "support",
+        "ganker",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "chronos",
+        "arachna",
+        "flint-beastwood"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "night-hound",
+      "name": "Night Hound",
+      "image": "heroes/night-hound.webp",
+      "role": [
+        "ganker",
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "scout",
+        "magebane",
+        "flux"
+      ],
+      "counters": [
+        "arachna",
+        "flint-beastwood",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "nomad",
+      "name": "Nomad",
+      "image": "heroes/nomad.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "andromeda",
+        "scout",
+        "silhouette"
+      ],
+      "counters": [
+        "arachna",
+        "flint-beastwood",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "nymphora",
+      "name": "Nymphora",
+      "image": "heroes/nymphora.webp",
+      "role": [
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 5,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "legionnaire"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "ophelia",
+      "name": "Ophelia",
+      "image": "heroes/ophelia.webp",
+      "role": [
+        "support",
+        "jungler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 5,
+      "midWarsRating": 5,
+      "synergies": [
+        "war-beast",
+        "keeper-of-the-forest"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "pandamonium",
+      "name": "Pandamonium",
+      "image": "heroes/pandamonium.webp",
+      "role": [
+        "initiator",
+        "ganker"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "flux",
+        "andromeda"
+      ],
+      "counters": [
+        "magebane",
+        "chronos",
+        "sand-wraith"
+      ]
+    },
+    {
+      "id": "pebbles",
+      "name": "Pebbles",
+      "image": "heroes/pebbles.webp",
+      "role": [
+        "initiator",
+        "disabler"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 1,
+      "powerRating": 9,
+      "midWarsRating": 9,
+      "synergies": [
+        "andromeda",
+        "pyromancer",
+        "thunderbringer"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "chronos"
+      ]
+    },
+    {
+      "id": "plague-rider",
+      "name": "Plague Rider",
+      "image": "heroes/plague-rider.webp",
+      "role": [
+        "support",
+        "ganker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "chronos",
+        "arachna",
+        "devourer"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "pollywog-priest",
+      "name": "Pollywog Priest",
+      "image": "heroes/pollywog-priest.webp",
+      "role": [
+        "support",
+        "ganker",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "andromeda",
+        "flux"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "chronos"
+      ]
+    },
+    {
+      "id": "predator",
+      "name": "Predator",
+      "image": "heroes/predator.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "puppet-master",
+      "name": "Puppet Master",
+      "image": "heroes/puppet-master.webp",
+      "role": [
+        "support",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 8,
+      "synergies": [
+        "chronos",
+        "arachna",
+        "flint-beastwood"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "pyromancer",
+      "name": "Pyromancer",
+      "image": "heroes/pyromancer.webp",
+      "role": [
+        "carry",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "andromeda",
+        "pebbles"
+      ],
+      "counters": [
+        "magebane",
+        "glacius",
+        "plague-rider"
+      ]
+    },
+    {
+      "id": "rampage",
+      "name": "Rampage",
+      "image": "heroes/rampage.webp",
+      "role": [
+        "initiator",
+        "carry"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "sand-wraith",
+      "name": "Sand Wraith",
+      "image": "heroes/sand-wraith.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "plague-rider",
+        "demented-shaman",
+        "puppet-master"
+      ],
+      "counters": [
+        "andromeda",
+        "tempest",
+        "behemoth"
+      ]
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "image": "heroes/scout.webp",
+      "role": [
+        "ganker",
+        "support"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "night-hound",
+        "magebane",
+        "nomad"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "dampeer"
+      ]
+    },
+    {
+      "id": "silhouette",
+      "name": "Silhouette",
+      "image": "heroes/silhouette.webp",
+      "role": [
+        "ganker",
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "night-hound",
+        "nomad",
+        "scout"
+      ],
+      "counters": [
+        "arachna",
+        "flint-beastwood",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "slither",
+      "name": "Slither",
+      "image": "heroes/slither.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "plague-rider",
+        "defiler",
+        "blood-hunter"
+      ],
+      "counters": [
+        "andromeda",
+        "aluna",
+        "witch-slayer"
+      ]
+    },
+    {
+      "id": "soul-reaper",
+      "name": "Soul Reaper",
+      "image": "heroes/soul-reaper.webp",
+      "role": [
+        "support",
+        "ganker"
+      ],
+      "attribute": "INT",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "chronos",
+        "devourer",
+        "blood-hunter"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "soulstealer",
+      "name": "Soulstealer",
+      "image": "heroes/soulstealer.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "plague-rider",
+        "demented-shaman",
+        "accursed"
+      ],
+      "counters": [
+        "andromeda",
+        "tempest",
+        "behemoth"
+      ]
+    },
+    {
+      "id": "swiftblade",
+      "name": "Swiftblade",
+      "image": "heroes/swiftblade.webp",
+      "role": [
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "dampeer"
+      ]
+    },
+    {
+      "id": "tempest",
+      "name": "Tempest",
+      "image": "heroes/tempest.webp",
+      "role": [
+        "support",
+        "pusher",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 1,
+      "powerRating": 9,
+      "midWarsRating": 9,
+      "synergies": [
+        "andromeda",
+        "behemoth",
+        "pyromancer"
+      ],
+      "counters": [
+        "magebane",
+        "chronos",
+        "sand-wraith"
+      ]
+    },
+    {
+      "id": "the-chipper",
+      "name": "The Chipper",
+      "image": "heroes/the-chipper.webp",
+      "role": [
+        "pusher",
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 5,
+      "midWarsRating": 5,
+      "synergies": [
+        "engineer",
+        "blacksmith",
+        "vindicator"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "thunderbringer",
+      "name": "Thunderbringer",
+      "image": "heroes/thunderbringer.webp",
+      "role": [
+        "carry",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "andromeda",
+        "pebbles"
+      ],
+      "counters": [
+        "magebane",
+        "glacius",
+        "plague-rider"
+      ]
+    },
+    {
+      "id": "torturer",
+      "name": "Torturer",
+      "image": "heroes/torturer.webp",
+      "role": [
+        "ganker",
+        "support",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "plague-rider",
+        "blood-hunter",
+        "deadwood"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "tundra",
+      "name": "Tundra",
+      "image": "heroes/tundra.webp",
+      "role": [
+        "initiator",
+        "support"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "behemoth",
+        "empath"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "image": "heroes/valkyrie.webp",
+      "role": [
+        "initiator",
+        "support"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "legionnaire"
+      ],
+      "counters": [
+        "flint-beastwood",
+        "arachna",
+        "forsaken-archer"
+      ]
+    },
+    {
+      "id": "vindicator",
+      "name": "Vindicator",
+      "image": "heroes/vindicator.webp",
+      "role": [
+        "support",
+        "carry"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "voodoo-jester",
+      "name": "Voodoo Jester",
+      "image": "heroes/voodoo-jester.webp",
+      "role": [
+        "support",
+        "ganker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 5,
+      "midWarsRating": 6,
+      "synergies": [
+        "plague-rider",
+        "demented-shaman",
+        "blood-hunter"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "witch-slayer",
+      "name": "Witch Slayer",
+      "image": "heroes/witch-slayer.webp",
+      "role": [
+        "support",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "legionnaire"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "wretched-hag",
+      "name": "Wretched Hag",
+      "image": "heroes/wretched-hag.webp",
+      "role": [
+        "ganker",
+        "carry"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "blood-hunter",
+        "plague-rider",
+        "dampeer"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "image": "heroes/zephyr.webp",
+      "role": [
+        "carry",
+        "pusher"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "nymphora"
+      ],
+      "counters": [
+        "blood-hunter",
+        "fayde",
+        "dampeer"
+      ]
+    },
+    {
+      "id": "maliken",
+      "name": "Maliken",
+      "image": "heroes/maliken.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "blood-hunter",
+        "dampeer",
+        "fayde"
+      ],
+      "counters": [
+        "andromeda",
+        "aluna",
+        "empath"
+      ]
+    },
+    {
+      "id": "amun-ra",
+      "name": "Amun-Ra",
+      "image": "heroes/amun-ra.webp",
+      "role": [
+        "initiator",
+        "carry"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 8,
+      "midWarsRating": 8,
+      "synergies": [
+        "chronos",
+        "arachna",
+        "flint-beastwood"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "rhapsody",
+      "name": "Rhapsody",
+      "image": "heroes/rhapsody.webp",
+      "role": [
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 5,
+      "midWarsRating": 5,
+      "synergies": [
+        "andromeda",
+        "empath",
+        "legionnaire"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "revenant",
+      "name": "Revenant",
+      "image": "heroes/revenant.webp",
+      "role": [
+        "ganker",
+        "carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "plague-rider",
+        "blood-hunter",
+        "demented-shaman"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "pharaoh",
+      "name": "Pharaoh",
+      "image": "heroes/pharaoh.webp",
+      "role": [
+        "initiator",
+        "ganker"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "chronos",
+        "arachna",
+        "flint-beastwood"
+      ],
+      "counters": [
+        "magebane",
+        "sand-wraith",
+        "soulstealer"
+      ]
+    },
+    {
+      "id": "electrician",
+      "name": "Electrician",
+      "image": "heroes/electrician.webp",
+      "role": [
+        "carry",
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "behemoth",
+        "thunderbringer"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "drunken-master",
+      "name": "Drunken Master",
+      "image": "heroes/drunken-master.webp",
+      "role": [
+        "carry",
+        "semi-carry",
+        "ganker"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "accursed",
+        "hellbringer",
+        "dampeer"
+      ],
+      "counters": [
+        "blood-hunter",
+        "night-hound",
+        "silhouette"
+      ]
+    },
+    {
+      "id": "ellonia",
+      "name": "Ellonia",
+      "image": "heroes/ellonia.webp",
+      "role": [
+        "nuker",
+        "disabler",
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "behemoth",
+        "tempest",
+        "glacius"
+      ],
+      "counters": [
+        "pyromancer",
+        "doctor-repulsor",
+        "hammerstorm"
+      ]
+    },
+    {
+      "id": "gauntlet",
+      "name": "Gauntlet",
+      "image": "heroes/gauntlet.webp",
+      "role": [
+        "initiator",
+        "disabler",
+        "support"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 8,
+      "synergies": [
+        "devourer",
+        "pebbles",
+        "plague-rider"
+      ],
+      "counters": [
+        "magebane",
+        "fayde",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "image": "heroes/gemini.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "arachna",
+        "flint-beastwood",
+        "moon-queen"
+      ],
+      "counters": [
+        "behemoth",
+        "pebbles",
+        "chronos"
+      ]
+    },
+    {
+      "id": "geomancer",
+      "name": "Geomancer",
+      "image": "heroes/geomancer.webp",
+      "role": [
+        "pusher",
+        "nuker",
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 4,
+      "powerRating": 5,
+      "midWarsRating": 5,
+      "synergies": [
+        "ophelia",
+        "pandamonium",
+        "engineer"
+      ],
+      "counters": [
+        "night-hound",
+        "blood-hunter",
+        "fayde"
+      ]
+    },
+    {
+      "id": "gunblade",
+      "name": "Gunblade",
+      "image": "heroes/gunblade.webp",
+      "role": [
+        "carry",
+        "semi-carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "arachna",
+        "moon-queen",
+        "flint-beastwood"
+      ],
+      "counters": [
+        "rampage",
+        "behemoth",
+        "pebbles"
+      ]
+    },
+    {
+      "id": "king-klout",
+      "name": "King Klout",
+      "image": "heroes/king-klout.webp",
+      "role": [
+        "initiator",
+        "semi-carry"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "nymphora",
+        "jeraziah"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "image": "heroes/kraken.webp",
+      "role": [
+        "initiator",
+        "carry",
+        "semi-carry"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "plague-rider",
+        "defiler",
+        "hellbringer"
+      ],
+      "counters": [
+        "witch-slayer",
+        "doctor-repulsor",
+        "chronos"
+      ]
+    },
+    {
+      "id": "lodestone",
+      "name": "Lodestone",
+      "image": "heroes/lodestone.webp",
+      "role": [
+        "initiator",
+        "disabler"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "behemoth",
+        "pebbles",
+        "tempest"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "nomad"
+      ]
+    },
+    {
+      "id": "magmus",
+      "name": "Magmus",
+      "image": "heroes/magmus.webp",
+      "role": [
+        "initiator",
+        "disabler",
+        "support"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 8,
+      "synergies": [
+        "defiler",
+        "plague-rider",
+        "hellbringer"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "chronos"
+      ]
+    },
+    {
+      "id": "master-of-arms",
+      "name": "Master Of Arms",
+      "image": "heroes/master-of-arms.webp",
+      "role": [
+        "carry",
+        "semi-carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "jeraziah",
+        "nymphora",
+        "empath"
+      ],
+      "counters": [
+        "night-hound",
+        "blood-hunter",
+        "fayde"
+      ]
+    },
+    {
+      "id": "midas",
+      "name": "Midas",
+      "image": "heroes/midas.webp",
+      "role": [
+        "ganker",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "behemoth",
+        "hammerstorm"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "monarch",
+      "name": "Monarch",
+      "image": "heroes/monarch.webp",
+      "role": [
+        "support",
+        "disabler"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "sand-wraith",
+        "moon-queen",
+        "arachna"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "monkey-king",
+      "name": "Monkey King",
+      "image": "heroes/monkey-king.webp",
+      "role": [
+        "carry",
+        "ganker",
+        "semi-carry"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "empath",
+        "jeraziah",
+        "nymphora"
+      ],
+      "counters": [
+        "blood-hunter",
+        "night-hound",
+        "fayde"
+      ]
+    },
+    {
+      "id": "moraxus",
+      "name": "Moraxus",
+      "image": "heroes/moraxus.webp",
+      "role": [
+        "carry",
+        "semi-carry"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "defiler",
+        "plague-rider",
+        "accursed"
+      ],
+      "counters": [
+        "witch-slayer",
+        "doctor-repulsor",
+        "pyromancer"
+      ]
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "image": "heroes/pearl.webp",
+      "role": [
+        "support",
+        "disabler",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 7,
+      "synergies": [
+        "legionnaire",
+        "valkyrie",
+        "andromeda"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "pestilence",
+      "name": "Pestilence",
+      "image": "heroes/pestilence.webp",
+      "role": [
+        "initiator",
+        "disabler",
+        "support"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "plague-rider",
+        "defiler",
+        "hellbringer"
+      ],
+      "counters": [
+        "magebane",
+        "fayde",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "prophet",
+      "name": "Prophet",
+      "image": "heroes/prophet.webp",
+      "role": [
+        "support",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "nymphora",
+        "empath"
+      ],
+      "counters": [
+        "blood-hunter",
+        "night-hound",
+        "fayde"
+      ]
+    },
+    {
+      "id": "ravenor",
+      "name": "Ravenor",
+      "image": "heroes/ravenor.webp",
+      "role": [
+        "carry",
+        "ganker"
+      ],
+      "attribute": "AGI",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "defiler",
+        "plague-rider",
+        "hellbringer"
+      ],
+      "counters": [
+        "witch-slayer",
+        "doctor-repulsor",
+        "myrmidon"
+      ]
+    },
+    {
+      "id": "riftwalker",
+      "name": "Riftwalker",
+      "image": "heroes/riftwalker.webp",
+      "role": [
+        "nuker",
+        "disabler",
+        "support"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 2,
+      "powerRating": 7,
+      "midWarsRating": 7,
+      "synergies": [
+        "chronos",
+        "tempest",
+        "behemoth"
+      ],
+      "counters": [
+        "magebane",
+        "blood-hunter",
+        "night-hound"
+      ]
+    },
+    {
+      "id": "sir-benzington",
+      "name": "Sir Benzington",
+      "image": "heroes/sir-benzington.webp",
+      "role": [
+        "initiator",
+        "semi-carry"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "jeraziah",
+        "nymphora"
+      ],
+      "counters": [
+        "blood-hunter",
+        "night-hound",
+        "fayde"
+      ]
+    },
+    {
+      "id": "solstice",
+      "name": "Solstice",
+      "image": "heroes/solstice.webp",
+      "role": [
+        "support",
+        "disabler",
+        "nuker"
+      ],
+      "attribute": "INT",
+      "attackType": "ranged",
+      "faction": "legion",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "andromeda",
+        "jeraziah",
+        "legionnaire"
+      ],
+      "counters": [
+        "blood-hunter",
+        "night-hound",
+        "fayde"
+      ]
+    },
+    {
+      "id": "war-beast",
+      "name": "War Beast",
+      "image": "heroes/war-beast.webp",
+      "role": [
+        "semi-carry",
+        "pusher",
+        "initiator"
+      ],
+      "attribute": "STR",
+      "attackType": "melee",
+      "faction": "hellbourne",
+      "tryhardTier": 3,
+      "powerRating": 6,
+      "midWarsRating": 6,
+      "synergies": [
+        "defiler",
+        "plague-rider",
+        "hellbringer"
+      ],
+      "counters": [
+        "witch-slayer",
+        "doctor-repulsor",
+        "myrmidon"
+      ]
+    }
+  ]
+}

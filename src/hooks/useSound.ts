@@ -11,12 +11,14 @@ function makeHowl(src: string) {
   })
 }
 
+const base = import.meta.env.BASE_URL
+
 const sounds = {
-  drumroll: () => makeHowl('/sounds/drumroll.mp3'),
-  pick:     () => makeHowl('/sounds/pick.mp3'),
-  ban:      () => makeHowl('/sounds/ban.mp3'),
-  reveal:   () => makeHowl('/sounds/reveal.mp3'),
-  repick:   () => makeHowl('/sounds/repick.mp3'),
+  drumroll: () => makeHowl(`${base}sounds/drumroll.mp3`),
+  pick:     () => makeHowl(`${base}sounds/pick.mp3`),
+  ban:      () => makeHowl(`${base}sounds/ban.mp3`),
+  reveal:   () => makeHowl(`${base}sounds/reveal.mp3`),
+  repick:   () => makeHowl(`${base}sounds/repick.mp3`),
 }
 
 type SoundKey = keyof typeof sounds
